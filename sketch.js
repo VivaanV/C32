@@ -9,7 +9,7 @@ var backgroundImg, aish;
 var ball, slingShot;
 
 function preload() {
-    backgroundImg = loadImage("grou.png");
+    backgroundImg = loadImage("bg2.jpg");
 }
 
 function setup() {
@@ -112,7 +112,7 @@ async function getBackgroundImg() {
     var hour = datetime.slice(11, 13);
 
     if (hour <= 0600 && hour >= 1900) {
-        bg = "grou.png";
+        bg = "bg2.jpg";
     } else {
         bg = "school.jpeg";
     }
